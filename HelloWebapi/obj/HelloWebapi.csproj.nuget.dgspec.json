@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\HelloWebapi\\HelloWebapi.csproj": {}
+    "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\hellowebapi\\HelloWebapi.csproj": {}
   },
   "projects": {
-    "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\HelloWebapi\\HelloWebapi.csproj": {
+    "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\hellowebapi\\HelloWebapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\HelloWebapi\\HelloWebapi.csproj",
+        "projectUniqueName": "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\hellowebapi\\HelloWebapi.csproj",
         "projectName": "HelloWebapi",
-        "projectPath": "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\HelloWebapi\\HelloWebapi.csproj",
+        "projectPath": "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\hellowebapi\\HelloWebapi.csproj",
         "packagesPath": "C:\\Users\\Donmez\\.nuget\\packages\\",
-        "outputPath": "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\HelloWebapi\\obj\\",
+        "outputPath": "E:\\aErdinc\\IS\\Projeler\\ORNEK Calisilan Deneme\\DotNetCalisma\\Hello\\hellowebapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
