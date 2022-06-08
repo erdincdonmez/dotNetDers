@@ -78,7 +78,7 @@ namespace DenemeWebApi.AddControllers
             return Ok();
         }
         [HttpDelete("{id}")]
-        public IActionResult DeleteBook(int id)
+        public IActionResult DeleteBook(int id) // to delete.
         {
             var book = BookList.SingleOrDefault(x => x.Id == id);
             if (book is null)
