@@ -56,3 +56,8 @@ E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\obj\Debug\
 E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\obj\Debug\net5.0\DenemeWebApi.genruntimeconfig.cache
 E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
 E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\System.IO.Packaging.dll
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\DenemeWebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
