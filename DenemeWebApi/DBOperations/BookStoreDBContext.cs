@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DenemeWebApi.DBOperations
 {
-    public class BookStoreDBContext : DbContext
+    public class BookStoreDbContext : DbContext
     {
-        public BookStoreDBContext(DbContextOptions<BookStoreDBContext>options):base(options){
+        public BookStoreDbContext(DbContextOptions<BookStoreDbContext>options):base(options){
         }    
         public DbSet<Book> Books {get;set;}
         

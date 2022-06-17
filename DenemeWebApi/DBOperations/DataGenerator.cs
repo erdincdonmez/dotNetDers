@@ -8,7 +8,7 @@ namespace DenemeWebApi.DBOperations
     public class DataGenerator
     {
         public static void Initialize(IServiceProvider serviceProvider){
-            using (var context = new BookStoreDBContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDBContext>>()))
+            using (var context = new BookStoreDbContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDbContext>>()))
             {
                 if (context.Books.Any()) return;
                 context.Books.AddRange(

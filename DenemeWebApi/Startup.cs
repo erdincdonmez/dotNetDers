@@ -34,7 +34,7 @@ namespace DenemeWebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DenemeWebApi", Version = "v1" });
             });
-            services.AddDbContext<BookStoreDBContext> (options  => options.UseInMemoryDatabase(databaseName : "BookStoreDB"));
+            services.AddDbContext<BookStoreDbContext> (options  => options.UseInMemoryDatabase(databaseName : "BookStoreDB"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
