@@ -4,6 +4,7 @@
     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
@@ -12,7 +13,8 @@
             "program": "${workspaceFolder}/bin/Debug/net6.0/LinqOrnek.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
+            //"console": "integratedTerminal",
+            "console": "extendetTerminal",
             "stopAtEntry": false
         },
         {
