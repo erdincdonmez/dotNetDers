@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using DenemeWebApi.DBOperations;
+using DenemeWebApi.BookOperations.GetBooks;
 
 namespace DenemeWebApi.AddControllers
 {
@@ -40,11 +41,17 @@ namespace DenemeWebApi.AddControllers
         };
  */
         [HttpGet]
-        public List<Book> GetBooks()
+        /*public List<Book> GetBooks()
         {
             //List<Book> booklist = BookList.OrderBy(x => x.Id).ToList<Book>();
             List<Book> booklist = _context.Books.OrderBy(x => x.Id).ToList<Book>();
             return booklist;
+        }*/
+        public IActionResult GetBooks()
+        {
+            GetBooksQuery query = new GetBooksQuery(_context);
+            var result = query.Handle();
+            return Ok(result);
         }
         [HttpGet("{id}")]
         public Book GetById(int id)
