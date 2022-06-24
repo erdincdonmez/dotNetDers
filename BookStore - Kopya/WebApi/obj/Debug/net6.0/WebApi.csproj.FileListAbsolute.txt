@@ -1,0 +1,7 @@
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\aErdinc\IS\Projeler\ORNEK Calisilan Deneme\dotNetDers\BookStore\webApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
