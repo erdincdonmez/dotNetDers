@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\BookOprations",
+    "\\BookOprations\\CreateBook",
     "\\BookOprations\\GetBooks",
     "\\Controllers",
     "\\DBOperations"
   ],
-  "SelectedNode": "\\WebApi.sln",
   "PreviewInSolutionExplorer": false
 }

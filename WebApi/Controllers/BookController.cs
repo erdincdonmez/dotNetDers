@@ -4,16 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using WebApi.DBOperations;
 using WebApi.BookOperations.GetBooks;
+using System.Data;
 
 namespace WebApi.AddControllers
 {
+using static WebApi.BookOperations.CreateBook.CreateBookCommand;
 
     [ApiController]
     [Route("[controller]s")]
     public class BookController : ControllerBase
     {
         private readonly BookStoreDbContext _context;
-        public BookController (BookStoreDbContext context){
+        public BookController (BookStoreDbContext context)
+        //public CreateBookCommand (BookStoreDbContext dbContext)
+        {
             _context = context;
         }
 /*         private static List<Book> BookList = new List<Book>{
@@ -68,14 +72,27 @@ namespace WebApi.AddControllers
         }
         */
         [HttpPost]
-        public IActionResult AddBook([FromBody] Book newBook) {
-            var book = _context.Books.SingleOrDefault(x => x.Title == newBook.Title);
+        public IActionResult AddBook([FromBody] CreateBookModel newBook) 
+        {
+
+            CreateBookCommand command = new CreateBookCommand(_context);
+            try
+            {
+                command.Model = newBook;
+                command.Handle();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
+            /*var book = _context.Books.SingleOrDefault(x => x.Title == newBook.Title);
             if (book is not null) {
                 return BadRequest();
             }
             //BookList.Add(newBook);
             _context.Books.Add(newBook);
-            _context.SaveChanges();
+            _context.SaveChanges();*/
             return Ok();
         }
         [HttpPut("{id}")]
