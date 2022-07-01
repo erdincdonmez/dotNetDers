@@ -16,6 +16,7 @@ namespace WebApi.BookOperations.GetBooks
         {
             _dbContext = _dbContext;
         }
+        // view model ile
         public BookDetailViewModel Handle()
         {
             var book = _context.Books.Where(book => book.Id == BookId).SingleOrDefault();
